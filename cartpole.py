@@ -19,7 +19,7 @@ batch_size = 32
 
 n_episodes = 1001
 
-#output_dir = "/content/gdrive/My Drive/"
+
 class DQNAgent:
   def __init__ (self, state_size, action_size,n_layer1=25, n_layer2=25):
     self.state_size = state_size
